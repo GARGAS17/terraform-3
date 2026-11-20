@@ -22,6 +22,7 @@ provider "aws" {
       Project     = var.project_name
       Environment = "Academico"
       ManagedBy   = "Terraform"
+      Owner       = "EquipoCloud"
     }
   }
 }
