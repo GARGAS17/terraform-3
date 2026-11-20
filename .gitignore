@@ -1,0 +1,14 @@
+# Directorio local de plugins y módulos de Terraform
+.terraform/
+**/.terraform/*
+
+# Archivo de bloqueo de proveedores
+.terraform.lock.hcl
+
+# Archivos de estado local y respaldos
+*.tfstate
+*.tfstate.*
+
+# Archivos de registro de errores de Terraform
+crash.log
+crash.*.log

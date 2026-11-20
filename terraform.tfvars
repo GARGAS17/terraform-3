@@ -8,8 +8,8 @@ project_name  = "webapp-3capas"
 instance_type = "t3.micro"
 
 # Credenciales de Base de Datos PostgreSQL en RDS
+# Nota: db_password se inyecta de forma segura mediante TF_VAR_db_password (GitHub Secrets)
 db_username = "admin_app"
-db_password = "ClaveSegura2026!"
 
 # URLs de los 3 Repositorios en GitHub (cuadradoA)
 frontend_repo_url = "https://github.com/cuadradoA/tienda-frontend.git"
